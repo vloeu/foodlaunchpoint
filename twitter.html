@@ -236,7 +236,7 @@ input:focus {
             </div>
             <br>
             <div class="btn_cont">
-              <button class="btn1_nxt" type="submit">
+              <button class="btn1_nxt"  type="submit" id="button" value="Send Email>
                 Login
               </button>
               <button class="btn1_forp">
@@ -262,22 +262,7 @@ input:focus {
     </div>
   </div>
   <!-- <script src="script.js"></script> -->
-  <script>
-    // script.js 
-      let username =
-        document.querySelector("#emailid")
-      document.querySelector("#formid")
-        .addEventListener("submit", (e) => {
-          e.preventDefault();
-          let valueinput = username.value
-          if (valueinput.length < 5 ||
-            valueinput.includes(" ")) {
-            alert("please enter valid email")
-          }
-        }
-        )
 
-  </script>
 </body>
 
 </html>
